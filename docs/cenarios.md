@@ -1,0 +1,1 @@
+# Cenários detalhados estão disponíveis no README.md principal.
