@@ -9,21 +9,21 @@
 ![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-blueviolet)
 ![DevOps](https://img.shields.io/badge/DevOps-Automatização-critical)
 
-> Um guia completo e template funcional para subir Fluig com NGINX como proxy reverso, com suporte a HTTPS, domínio local ou real, load balance, deploy em nuvem e práticas DevOps!
+> A complete and functional guide and template to deploy Fluig with NGINX as a reverse proxy, supporting HTTPS, local or public domains, load balancing, cloud deployment, and DevOps practices!
 
 ---
 
-# 📋 Índice de Cenários
+# 📋 Scenario Index
 
 | Ordem | Cenário |
 |------|---------|
-| A | Subir Fluig básico standalone |
-| B | Subir proxy reverso simples (sem domínio, sem certificado) |
-| C | Subir proxy reverso com load balance (sem domínio, sem certificado) |
-| D | Proxy reverso com domínio local (sem certificado) |
-| E | Proxy reverso com HTTPS local (localhost, sem domínio) |
-| F | Proxy reverso com domínio local + HTTPS local (via mkcert) |
-| G | Proxy reverso com domínio real + HTTPS real (Let's Encrypt) |
+| A | Deploy basic standalone Fluig |
+| B | Deploy simple reverse proxy (no domain, no certificate) |
+| C | Deploy reverse proxy with load balancing (no domain, no certificate) |
+| D | Reverse proxy with local domain (no certificate) |
+| E | Reverse proxy with local HTTPS (localhost, no domain) |
+| F | Reverse proxy with local domain + local HTTPS (using mkcert) |
+| G | Reverse proxy with real domain + real HTTPS (Let's Encrypt) |
 
 ---
 
