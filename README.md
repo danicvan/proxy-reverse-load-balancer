@@ -27,13 +27,13 @@
 
 ---
 
-# 📖 Cenários Detalhados
+# 📖 Detailed Scenarios
 
-## Cenário A – Subir Fluig Básico (Standalone Local)
+## Scenario A – Deploy Basic Fluig (Standalone Local)
 
 ### ![Fluig](https://img.shields.io/badge/Plataforma-Fluig-blue) ![Modo-Standalone](https://img.shields.io/badge/Modo-Standalone-green)
 
-**Objetivo:** Rodar uma instância Fluig local no WildFly.
+**Goal:** Run a standalone Fluig instance on WildFly.
 
 **Passos Windows:**
 ```bash
