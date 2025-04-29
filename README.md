@@ -2,12 +2,12 @@
 
 # Fluig Proxy Cluster Template 🚀
 
-![Fluig](https://img.shields.io/badge/Plataforma-Fluig-blue)
+![Fluig](https://img.shields.io/badge/Platform-Fluig-blue)
 ![NGINX](https://img.shields.io/badge/Proxy-NGINX-brightgreen)
-![HTTPS](https://img.shields.io/badge/HTTPS-Configurações-green)
-![WildFly](https://img.shields.io/badge/Servidor-WildFly-lightgrey)
+![HTTPS](https://img.shields.io/badge/HTTPS-Settings-green)
+![WildFly](https://img.shields.io/badge/Application-Server-WildFly-lightgrey)
 ![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-blueviolet)
-![DevOps](https://img.shields.io/badge/DevOps-Automatização-critical)
+![DevOps](https://img.shields.io/badge/DevOps-Automation-critical)
 
 > A complete and functional guide and template to deploy Fluig with NGINX as a reverse proxy, supporting HTTPS, local or public domains, load balancing, cloud deployment, and DevOps practices!
 
@@ -31,7 +31,7 @@
 
 ## Scenario A – Deploy Basic Fluig (Standalone Local)
 
-### ![Fluig](https://img.shields.io/badge/Plataforma-Fluig-blue) ![Standalone Mode](https://img.shields.io/badge/Modo-Standalone-green)
+### ![Fluig](https://img.shields.io/badge/Platform-Fluig-blue) ![Standalone Mode](https://img.shields.io/badge/Modo-Standalone-green)
 
 **Goal:** Run a standalone Fluig instance on WildFly.
 
