@@ -5,7 +5,7 @@
 ![Fluig](https://img.shields.io/badge/Platform-Fluig-blue)
 ![NGINX](https://img.shields.io/badge/Proxy-NGINX-brightgreen)
 ![HTTPS](https://img.shields.io/badge/HTTPS-Settings-green)
-![WildFly](https://img.shields.io/badge/Application-Server-WildFly-lightgrey)
+![WildFly](https://img.shields.io/badge/Application%20Server-WildFly-lightgrey)
 ![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-blueviolet)
 ![DevOps](https://img.shields.io/badge/DevOps-Automation-critical)
 
@@ -206,7 +206,7 @@ This repository guides you through hands-on learning of the following technologi
 ![Fluig](https://img.shields.io/badge/Platform-Fluig-blue)
 ![NGINX](https://img.shields.io/badge/Proxy-Reverse-brightgreen)
 ![HTTPS](https://img.shields.io/badge/HTTPS-Settings-green)
-![WildFly](https://img.shields.io/badge/Application-Server-WildFly-lightgrey)
+![WildFly](https://img.shields.io/badge/Application%20Server-WildFly-lightgrey)
 ![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-blueviolet)
 ![mkcert](https://img.shields.io/badge/Local-Certificates-yellow)
 ![Let's Encrypt](https://img.shields.io/badge/Public-SSl-success)
