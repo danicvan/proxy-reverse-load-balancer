@@ -90,7 +90,7 @@ Access `http://localhost`.
 - Duplicate Fluig (C:\fluig → C:\fluig2)
 - Change the second to use port 8081
 
-**Configuração NGINX:**
+**CNGINX Configuration:**
 ```nginx
 upstream fluig_cluster {
     server localhost:8080;
@@ -105,44 +105,44 @@ server {
 }
 ```
 
-**Teste:**
-Atualizar navegador e ver alternância.
+**Test:**
+Refresh the browser and observe switching between instances.
 
 ---
 
-## Cenário D – Proxy com Domínio Local (sem HTTPS)
+## Scenario D – Reverse Proxy with Local Domain (no HTTPS)
 
 ### ![Domínio](https://img.shields.io/badge/Domínio-fluig.localhost-blue)
 
-**Objetivo:** Acessar Fluig via `fluig.localhost`.
+**Goal:** Access Fluig via `fluig.localhost`.
 
-**Passos:**
-- Adicionar ao `/etc/hosts`:
+**Steps:**
+- Add to `/etc/hosts`:
 ```
 127.0.0.1 fluig.localhost
 ```
-- Configurar o NGINX para `fluig.localhost`.
+- Configure NGINX to recognize `fluig.localhost`.
 
-**Teste:**
-Acesse `http://fluig.localhost`.
+**Test:**
+Access `http://fluig.localhost`.
 
 ---
 
-## Cenário E – Proxy HTTPS Local sem Domínio (com mkcert)
+## Scenario E – Local HTTPS Proxy without Domain (using mkcert)
 
 ### ![HTTPS](https://img.shields.io/badge/HTTPS-local-yellow)
 
-**Objetivo:** HTTPS em `localhost`.
+**Goal:** HTTPS on `localhost`.
 
-**Passos:**
-- Gerar certificado:
+**Steps:**
+- Generate certificate:
 ```bash
 mkcert localhost
 ```
-- Configurar o NGINX para usar SSL.
+- Configure NGINX to use SSL.
 
-**Teste:**
-Acesse `https://localhost` (certificado confiável).
+**Test:**
+Access `https://localhost` (trusted certificate).
 
 ---
 
