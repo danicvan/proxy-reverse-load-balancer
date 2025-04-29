@@ -146,19 +146,19 @@ Access `https://localhost` (trusted certificate).
 
 ---
 
-## Cenário F – Proxy com Domínio Local + HTTPS Local (com mkcert)
+## Scenario F – Reverse Proxy with Local Domain + Local HTTPS (using mkcert)
 
 ### ![HTTPS](https://img.shields.io/badge/HTTPS-local-green)
 
-**Objetivo:** HTTPS com `fluig.localhost`.
+**Goal:** HTTPS on `fluig.localhost`.
 
-**Passos:**
-- `/etc/hosts` com `fluig.localhost`
-- `mkcert fluig.localhost`
-- Configurar NGINX para SSL e redirecionamento.
+**Steps:**
+- Add `/etc/hosts` to `fluig.localhost`
+- Generate certificate: `mkcert fluig.localhost`
+- Configure NGINX for SSL and HTTP to HTTPS redirection.
 
-**Teste:**
-Acesse `https://fluig.localhost`.
+**Test:**
+Access `https://fluig.localhost`.
 
 ---
 
