@@ -57,11 +57,11 @@ Acesse `http://localhost:8080` e veja o login do Fluig.
 
 ---
 
-## Cenário B – Proxy Reverso Simples (sem domínio, sem certificado)
+## Scenario B – Simple Reverse Proxy (no domain, no certificate)
 
 ### ![NGINX](https://img.shields.io/badge/Proxy-NGINX-brightgreen)
 
-**Objetivo:** Redirecionar `localhost:80` → `localhost:8080` via NGINX.
+**Goal:** Redirect `localhost:80` → `localhost:8080` via NGINX.
 
 **Passos Windows/Linux:**
 ```nginx
@@ -73,22 +73,22 @@ server {
     }
 }
 ```
-Reinicie o NGINX.
+Restart o NGINX.
 
-**Teste:**
-Acesse `http://localhost`.
+**Test:**
+Access `http://localhost`.
 
 ---
 
-## Cenário C – Proxy Reverso com Load Balance (sem domínio, sem certificado)
+## Scenario C – Reverse Proxy with Load Balancing (no domain, no certificate)
 
 ### ![Cluster](https://img.shields.io/badge/Cluster-2xFluig-blue)
 
-**Objetivo:** Balancear entre duas instâncias Fluig.
+**Goal:** Load balance between two Fluig instances.
 
-**Passos:**
-- Duplique o Fluig (C:\fluig → C:\fluig2)
-- Altere a segunda para usar 8081
+**Steps:**
+- Duplicate Fluig (C:\fluig → C:\fluig2)
+- Change the second to use port 8081
 
 **Configuração NGINX:**
 ```nginx
