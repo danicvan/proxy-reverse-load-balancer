@@ -31,11 +31,11 @@
 
 ## Scenario A – Deploy Basic Fluig (Standalone Local)
 
-### ![Fluig](https://img.shields.io/badge/Plataforma-Fluig-blue) ![Modo-Standalone](https://img.shields.io/badge/Modo-Standalone-green)
+### ![Fluig](https://img.shields.io/badge/Plataforma-Fluig-blue) ![Standalone Mode](https://img.shields.io/badge/Modo-Standalone-green)
 
 **Goal:** Run a standalone Fluig instance on WildFly.
 
-**Passos Windows:**
+**Windows Steps:**
 ```bash
 cd C:\fluig\server\bin
 standalone.bat
@@ -47,13 +47,13 @@ cd ~/fluig/server/bin
 ./standalone.sh
 ```
 
-**Pontos de Atenção:**
-- Java JDK instalado
-- Porta 8080 liberada
-- Banco de dados operacional
+**Attention Points:**
+- Java JDK installed
+- Port 8080 must be available
+- Operational database
 
-**Teste:**
-Acesse `http://localhost:8080` e veja o login do Fluig.
+**Test:**
+Access `http://localhost:8080` and verify the Fluig login page.
 
 ---
 
