@@ -162,26 +162,26 @@ Access `https://fluig.localhost`.
 
 ---
 
-## Cenário G – Proxy com Domínio Real + HTTPS Real (Let's Encrypt)
+## Scenario G – Reverse Proxy with Real Domain + Real HTTPS (Let's Encrypt)
 
 ### ![Let's Encrypt](https://img.shields.io/badge/SSL-Let's%20Encrypt-success)
 
-**Objetivo:** Deploy real em servidor cloud com HTTPS real.
+**Goal:** Real deployment on a cloud server with public HTTPS.
 
-**Passos:**
-- Configurar DNS para apontar para VPS
-- Instalar NGINX e certbot
-- Rodar:
+**Steps:**
+- Configure DNS to point to your VPS IP
+- Install NGINX and certbot
+- Run:
 ```bash
 sudo certbot --nginx -d fluig.seudominio.com.br
 ```
 
-**Teste:**
-Acesse `https://fluig.seudominio.com.br` com cadeado seguro.
+**Test:**
+Access `https://fluig.seudominio.com.br` and verify the security lock.
 
 ---
 
-# 🛠️ Stack Utilizada
+# 🛠️ Stack Used
 
 - WildFly / JBoss
 - NGINX
@@ -198,9 +198,9 @@ Acesse `https://fluig.seudominio.com.br` com cadeado seguro.
 
 ---
 
-# 🎯 Stacks e Conhecimentos Adquiridos com este Template
+# 🎯 Stacks and Knowledge Acquired with this Template
 
-Este repositório te guia no aprendizado prático das seguintes tecnologias:
+This repository guides you through hands-on learning of the following technologies:
 
 <div align="center">
 
