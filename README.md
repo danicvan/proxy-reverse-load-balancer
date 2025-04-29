@@ -41,7 +41,7 @@ cd C:\fluig\server\bin
 standalone.bat
 ```
 
-**Passos Linux:**
+**Linux Steps:**
 ```bash
 cd ~/fluig/server/bin
 ./standalone.sh
@@ -112,7 +112,7 @@ Refresh the browser and observe switching between instances.
 
 ## Scenario D – Reverse Proxy with Local Domain (no HTTPS)
 
-### ![Domínio](https://img.shields.io/badge/Domínio-fluig.localhost-blue)
+### ![Domain](https://img.shields.io/badge/Domain-fluig.localhost-blue)
 
 **Goal:** Access Fluig via `fluig.localhost`.
 
@@ -193,8 +193,7 @@ Access `https://fluig.seudominio.com.br` and verify the security lock.
 
 ---
 
-© 2025 – Template de Infraestrutura para Fluig.
-
+© 2025 – Fluig Infrastructure Template.
 
 ---
 
@@ -204,19 +203,19 @@ This repository guides you through hands-on learning of the following technologi
 
 <div align="center">
 
-![Fluig](https://img.shields.io/badge/Plataforma-Fluig-blue)
-![NGINX](https://img.shields.io/badge/Proxy-Reverso-brightgreen)
-![HTTPS](https://img.shields.io/badge/HTTPS-Configuração-green)
-![WildFly](https://img.shields.io/badge/Servidor-WildFly-lightgrey)
+![Fluig](https://img.shields.io/badge/Platform-Fluig-blue)
+![NGINX](https://img.shields.io/badge/Proxy-Reverse-brightgreen)
+![HTTPS](https://img.shields.io/badge/HTTPS-Settings-green)
+![WildFly](https://img.shields.io/badge/Application-Server-WildFly-lightgrey)
 ![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-blueviolet)
-![mkcert](https://img.shields.io/badge/Certificados-Locais-yellow)
-![Let's Encrypt](https://img.shields.io/badge/SSL-Público-success)
-![Docker](https://img.shields.io/badge/Contêinerização-Docker-informational)
+![mkcert](https://img.shields.io/badge/Local-Certificates-yellow)
+![Let's Encrypt](https://img.shields.io/badge/Public-SSl-success)
+![Docker](https://img.shields.io/badge/Containerization-Docker-informational)
 ![Cloud](https://img.shields.io/badge/Cloud-Deploy-lightblue)
-![DevOps](https://img.shields.io/badge/DevOps-Integração_e_Entrega_contínua-critical)
+![DevOps](https://img.shields.io/badge/DevOps-CI/CD-critical)
 ![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub_Actions-blue)
-![Linux](https://img.shields.io/badge/Sistema-Linux-important)
-![Windows](https://img.shields.io/badge/Sistema-Windows-brightgreen)
+![Linux](https://img.shields.io/badge/OS-Linux-important)
+![Windows](https://img.shields.io/badge/OS-Windows-brightgreen)
 
 </div>
 
